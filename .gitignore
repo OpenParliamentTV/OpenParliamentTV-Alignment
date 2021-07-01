@@ -24,6 +24,3 @@ pids
 *.mov
 *.mpg
 *.mp3
-
-# Cache
-cache/*
