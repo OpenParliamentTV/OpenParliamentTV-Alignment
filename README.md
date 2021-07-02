@@ -50,8 +50,9 @@ Input files are XML files in an XHTML format. The standalone file contains all n
 <?xml version="1.0" encoding="UTF-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta charset="utf-8"/></head>
-    <body>
+    <meta charset="utf-8"/>
+  </head>
+  <body>
      <div data-media-file-uri="https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174046/7174046_h264_720_400_2000kb_baseline_de_2192.mp4" data-media-id="DE-0190003001">
        <p data-type="speech">
          <span id="s000001">Guten Morgen, liebe Kolleginnen und Kollegen!</span>
