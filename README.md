@@ -54,7 +54,8 @@ Input files are XML files in an XHTML format. The standalone file contains all n
     <body>
      <div data-media-file-uri="https://cldf-od.r53.cdn.tv1.eu/1000153copo/ondemand/app144277506/145293313/7174046/7174046_h264_720_400_2000kb_baseline_de_2192.mp4" data-media-id="DE-0190003001">
        <p data-type="speech">
-         <span id="s000001">Guten Morgen, liebe Kolleginnen und Kollegen!</span><span id="s000002">Nehmen Sie bitte Platz.</span>
+         <span id="s000001">Guten Morgen, liebe Kolleginnen und Kollegen!</span>
+         <span id="s000002">Nehmen Sie bitte Platz.</span>
        </p>
        <p data-type="comment">
          <span>(Lachen bei Abgeordneten der SPD)</span>
