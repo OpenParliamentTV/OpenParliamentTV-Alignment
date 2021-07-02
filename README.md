@@ -1,10 +1,22 @@
 # Open Parliament TV Alignment
 
+## Prerequisites
+
+* **PHP**
+* [**Aeneas**](https://www.readbeyond.it/aeneas/) ("automagically synchronize audio and text")
+    * Aeneas Dependencies: **Python** (2.7.x preferred), **FFmpeg**, and **eSpeak**
+
+#### Installing Aeneas
+
+See [https://github.com/readbeyond/aeneas/blob/master/wiki/INSTALL.md](https://github.com/readbeyond/aeneas/blob/master/wiki/INSTALL.md).
+
+For Mac OS, there is an all-in-one installer, which takes care of the dependencies: [https://github.com/sillsdev/aeneas-installer/releases](https://github.com/sillsdev/aeneas-installer/releases).
+
 ## Notes
 
-1. Check if there are `*.xml` or `*.html` files in `input/` for which no corresponding file exists under `output/INPUT_FILE_NAME.json` (replacing file suffix with `.json`).
+1. Check if there are `*.xml` files in `input/` for which no corresponding file exists under `output/INPUT_FILE_NAME.json` (replacing file suffix with `.json`).
 
-2. If yes, parse input file (eg. `DE-0190003001_proceedings.html`) as XML and retrieve `MEDIA_FILE_URI` at `html > body[data-media-file-uri]`.
+2. If yes, parse input file (eg. `DE-0190003001_proceedings.xml`) as XML and retrieve `MEDIA_FILE_URI` at `html > body[data-media-file-uri]`.
 
 3. Extract `MEDIA_FILE_NAME` from `MEDIA_FILE_URI`.
 
