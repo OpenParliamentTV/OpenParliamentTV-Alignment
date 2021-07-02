@@ -2,7 +2,6 @@
 
 ## Prerequisites
 
-* **PHP**
 * [**Aeneas**](https://www.readbeyond.it/aeneas/) ("automagically synchronize audio and text")
     * Aeneas Dependencies: **Python** (2.7.x preferred), **FFmpeg**, and **eSpeak**
 
