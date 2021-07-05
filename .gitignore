@@ -10,6 +10,7 @@
 logs
 _logs/
 *.log
+alignment-log.txt
 
 # Runtime data
 pids
