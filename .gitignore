@@ -24,3 +24,7 @@ pids
 *.mov
 *.mpg
 *.mp3
+
+# Data dirs
+input/*.xml
+output/*.json
